@@ -29,7 +29,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      # Runs a single command using the runners shell
+      # Runs a single command using the runners shell   
       - name: Download artifact
         id: download-artifact
         uses: dawidd6/action-download-artifact@v11
@@ -52,7 +52,7 @@ jobs:
           #   "completed", "in_progress", "queued"
           # Use the empty string ("") to ignore status or conclusion in the search
           #workflow_conclusion: success
-          workflow_conclusion: ""
+          workflow_conclusion: success
           # Optional, will get head commit SHA
           #pr: ${{github.event.pull_request.number}}
           # Optional, no need to specify if PR is
@@ -87,7 +87,7 @@ jobs:
           # Optional, check the workflow run to whether it has an artifact
           # then will get the last available artifact from the previous workflow
           # default false, just try to download from the last one
-          check_artifacts: false
+          check_artifacts: true
           # Optional, search for the last workflow run whose stored an artifact named as in `name` input
           # default false
           search_artifacts: true
