@@ -33,7 +33,7 @@ jobs:
       - uses: actions/download-artifact@v5
         with:
           name: quartobook
-          github-token: ${{ secrets.GH_PAT }} # token with actions:read permissions on target repo
+          github-token: ${{ secrets.GITHUB_TOKEN }} # token with actions:read permissions on target repo
           repository: edalfon/ptfr
           run-id: 18083571758
           
