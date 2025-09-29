@@ -1,24 +1,51 @@
-name: Download Quartobook
-
-on:
-  workflow_dispatch:
-
 jobs:
-  download:
+  fetch-foreign-artifact:
     runs-on: ubuntu-latest
-    permissions:
-      actions: read
-      contents: read
-
+    env:
+      SRC_OWNER: edalfon
+      SRC_REPO: ptfr
+      SRC_WORKFLOW: R-targets.yml            # file name or workflow ID
+      ARTIFACT_NAME: quartobook         # exact artifact name to fetch
     steps:
-      - name: Download quartobook artifact
-        uses: dawidd6/action-download-artifact@v2
-        with:
-          repo: edalfon/ptfr
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          workflow: R-targets.yml
-          workflow_conclusion: success
-          branch: main
-          path: book
-          search_artifacts: true
-          check_artifacts: true
+      - name: Install GitHub CLI
+        uses: cli/cli-action@v2
+
+      - name: Find latest successful run in other repo
+        id: run
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          run_id=$(gh api \
+            repos/${SRC_OWNER}/${SRC_REPO}/actions/workflows/${SRC_WORKFLOW}/runs \
+            -F per_page=50 \
+            --jq '.workflow_runs | map(select(.status=="completed" and .conclusion=="success")) | .[0].id')
+          if [ -z "$run_id" ]; then
+            echo "No successful runs found." >&2
+            exit 1
+          fi
+          echo "run_id=$run_id" >> $GITHUB_OUTPUT
+
+      - name: Get artifact download URL
+        id: artifact
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          url=$(gh api \
+            repos/${SRC_OWNER}/${SRC_REPO}/actions/runs/${{ steps.run.outputs.run_id }}/artifacts \
+            --jq ".artifacts[] | select(.name==\"${ARTIFACT_NAME}\") | .archive_download_url" | head -n1)
+          if [ -z "$url" ]; then
+            echo "Artifact '${ARTIFACT_NAME}' not found on that run." >&2
+            exit 1
+          fi
+          echo "url=$url" >> $GITHUB_OUTPUT
+
+      - name: Download & extract artifact
+        env:
+          TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          curl -sSL -H "Authorization: Bearer $TOKEN" \
+               -H "Accept: application/octet-stream" \
+               "${{ steps.artifact.outputs.url }}" \
+               -o artifact.zip
+          unzip -q artifact.zip -d ./artifact
+          ls -la ./artifact
