@@ -1,0 +1,520 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Evaluación PTF",
+    "section": "",
+    "text": "Preface\nVCA\nPTF\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "siviru.html",
+    "href": "siviru.html",
+    "title": "1  Sivirú",
+    "section": "",
+    "text": "1.1 Edad\nMedia y desviación\n\n\nMedia\nDesviación Estándar\nCoeficiente de Variación\n\n\n\n\n45.6\n14.2\n0.313\nCuantiles\n\n\n0%\n5%\n25%\n50%\n75%\n95%\n100%\n\n\n\n\n19\n24\n33.8\n44\n58.2\n68\n75\nMedia y desviación\n\n\n\n\n\n\n\n\nExposición al programa\nMedia\nDesviación Estándar\nCoeficiente de Variación\n\n\n\n\nBeneficiaria/o\n44.9\n13.7\n0.304\n\n\nControl Cercano\n46.5\n14.6\n0.314\n\n\nControl Lejano\n45.4\n14.7\n0.324\nCuantiles\n\n\nExposición al programa\n0%\n5%\n25%\n50%\n75%\n95%\n100%\n\n\n\n\nBeneficiaria/o\n22\n23.7\n35.0\n44.0\n57.8\n64.6\n69\n\n\nControl Cercano\n22\n24.5\n34.5\n48.0\n58.2\n69.2\n74\n\n\nControl Lejano\n19\n24.1\n32.5\n43.5\n59.8\n68.0\n75\n[1] \"\\n 1  NA was removed!\\n\\n\"\n\n\n\nPruebas de diferencia de distribución y medidas de tendencia central\n\n\n\n\n\n\n\nTest\nStatistic\nP-Value\n\n\n\n\nAnderson-Darling (k-sample, v1)\n\\(AD = 0.60717 \\, (T_{AD}=-1.3205)\\)\n0.992\n\n\nAnderson-Darling (k-sample, v2)\n\\(AD = 0.501 \\, (T_{AD}=-1.4212)\\)\n0.998\n\n\nKruskal–Wallis\n\\(\\chi^2(2)=0.185716157237324\\)\n0.911\n\n\nWelch ANOVA\n\\(F(2, 74.6767598444881)=0.115800380725054\\)\n0.891",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Sivirú</span>"
+    ]
+  },
+  {
+    "objectID": "siviru.html#sexo-asignado-al-nacer",
+    "href": "siviru.html#sexo-asignado-al-nacer",
+    "title": "1  Sivirú",
+    "section": "1.2 Sexo asignado al nacer",
+    "text": "1.2 Sexo asignado al nacer\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1.1: Tabulación Cruzada\n\n\n\n\n\n\nTabla de contingencia\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nMasculino\n1\n1\n1\n3\n\n\nFemenino\n37\n36\n41\n114\n\n\nIndeterminado\n0\n0\n0\n0\n\n\nTotal\n38\n37\n42\n117\n\n\n\n\n\n\n\n\nPorcentajes fila\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nMasculino\n33.3\n33.3\n33.3\n100\n\n\nFemenino\n32.5\n31.6\n36.0\n100\n\n\nIndeterminado\nNaN\nNaN\nNaN\nNaN\n\n\nTotal\n32.5\n31.6\n35.9\n100\n\n\n\n\n\n\n\n\n\n\nPorcentajes columna\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nMasculino\n2.63\n2.7\n2.38\n2.56\n\n\nFemenino\n97.37\n97.3\n97.62\n97.44\n\n\nIndeterminado\n0.00\n0.0\n0.00\n0.00\n\n\nTotal\n100.00\n100.0\n100.00\n100.00\n\n\n\n\n\n\n\n\nPorcentajes celda\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nMasculino\n0.855\n0.855\n0.855\n2.56\n\n\nFemenino\n31.624\n30.769\n35.043\n97.44\n\n\nIndeterminado\n0.000\n0.000\n0.000\n0.00\n\n\nTotal\n32.479\n31.624\n35.897\n100.00\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStandardized residuals (&gt;|2| suggests notable cells)\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\n\n\n\n\nMasculino\n0.03\n0.06\n-0.09\n\n\nFemenino\n-0.03\n-0.06\n0.09\n\n\nIndeterminado\nNaN\nNaN\nNaN\n\n\n\n\n\n\nAssociation tests and effect size\n\n\n\n\n\n\n\n\n\nTest\nStatistic\nDF\np.value\nNote\n\n\n\n\nChi-square (Pearson)\nX^2 = NaN\n4\nNA\nMC p-value (small expected counts)\n\n\nFisher’s exact (r×c, MC)\n\n\n1\nMonte Carlo simulation\n\n\nEffect size (Cramér’s V)\nV = NaN\n\n\n0=no assoc, ~0.1 small, ~0.3 medium, ~0.5 large",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Sivirú</span>"
+    ]
+  },
+  {
+    "objectID": "siviru.html#orientación-sexual",
+    "href": "siviru.html#orientación-sexual",
+    "title": "1  Sivirú",
+    "section": "1.3 Orientación sexual",
+    "text": "1.3 Orientación sexual\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1.2: Tabulación Cruzada\n\n\n\n\n\n\nTabla de contingencia\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nHombres\n36\n35\n39\n110\n\n\nMujeres\n0\n0\n3\n3\n\n\nAmbos sexos\n1\n0\n0\n1\n\n\nOtro, ¿cuál?\n0\n0\n0\n0\n\n\nPrefiero no responder\n1\n2\n0\n3\n\n\nTotal\n38\n37\n42\n117\n\n\n\n\n\n\n\n\nPorcentajes fila\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nHombres\n32.7\n31.8\n35.5\n100\n\n\nMujeres\n0.0\n0.0\n100.0\n100\n\n\nAmbos sexos\n100.0\n0.0\n0.0\n100\n\n\nOtro, ¿cuál?\nNaN\nNaN\nNaN\nNaN\n\n\nPrefiero no responder\n33.3\n66.7\n0.0\n100\n\n\nTotal\n32.5\n31.6\n35.9\n100\n\n\n\n\n\n\n\n\n\n\nPorcentajes columna\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nHombres\n94.74\n94.6\n92.86\n94.017\n\n\nMujeres\n0.00\n0.0\n7.14\n2.564\n\n\nAmbos sexos\n2.63\n0.0\n0.00\n0.855\n\n\nOtro, ¿cuál?\n0.00\n0.0\n0.00\n0.000\n\n\nPrefiero no responder\n2.63\n5.4\n0.00\n2.564\n\n\nTotal\n100.00\n100.0\n100.00\n100.000\n\n\n\n\n\n\n\n\nPorcentajes celda\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nHombres\n30.769\n29.91\n33.33\n94.017\n\n\nMujeres\n0.000\n0.00\n2.56\n2.564\n\n\nAmbos sexos\n0.855\n0.00\n0.00\n0.855\n\n\nOtro, ¿cuál?\n0.000\n0.00\n0.00\n0.000\n\n\nPrefiero no responder\n0.855\n1.71\n0.00\n2.564\n\n\nTotal\n32.479\n31.62\n35.90\n100.000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStandardized residuals (&gt;|2| suggests notable cells)\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\n\n\n\n\nHombres\n0.23\n0.18\n-0.40\n\n\nMujeres\n-1.22\n-1.19\n2.34\n\n\nAmbos sexos\n1.45\n-0.68\n-0.75\n\n\nOtro, ¿cuál?\nNaN\nNaN\nNaN\n\n\nPrefiero no responder\n0.03\n1.32\n-1.31\n\n\n\n\n\n\nAssociation tests and effect size\n\n\n\n\n\n\n\n\n\nTest\nStatistic\nDF\np.value\nNote\n\n\n\n\nChi-square (Pearson)\nX^2 = NaN\n8\nNA\nMC p-value (small expected counts)\n\n\nFisher’s exact (r×c, MC)\n\n\n0.109\nMonte Carlo simulation\n\n\nEffect size (Cramér’s V)\nV = NaN\n\n\n0=no assoc, ~0.1 small, ~0.3 medium, ~0.5 large",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Sivirú</span>"
+    ]
+  },
+  {
+    "objectID": "siviru.html#identidad-de-género",
+    "href": "siviru.html#identidad-de-género",
+    "title": "1  Sivirú",
+    "section": "1.4 Identidad de género",
+    "text": "1.4 Identidad de género\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1.3: Tabulación Cruzada\n\n\n\n\n\n\nTabla de contingencia\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nHombre\n0\n0\n3\n3\n\n\nMujer\n38\n37\n38\n113\n\n\nHombre trans\n0\n0\n0\n0\n\n\nMujer trans\n0\n0\n1\n1\n\n\nOtro, ¿cuál?\n0\n0\n0\n0\n\n\nPrefiero no responder\n0\n0\n0\n0\n\n\nTotal\n38\n37\n42\n117\n\n\n\n\n\n\n\n\nPorcentajes fila\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nHombre\n0.0\n0.0\n100.0\n100\n\n\nMujer\n33.6\n32.7\n33.6\n100\n\n\nHombre trans\nNaN\nNaN\nNaN\nNaN\n\n\nMujer trans\n0.0\n0.0\n100.0\n100\n\n\nOtro, ¿cuál?\nNaN\nNaN\nNaN\nNaN\n\n\nPrefiero no responder\nNaN\nNaN\nNaN\nNaN\n\n\nTotal\n32.5\n31.6\n35.9\n100\n\n\n\n\n\n\n\n\n\n\nPorcentajes columna\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nHombre\n0\n0\n7.14\n2.564\n\n\nMujer\n100\n100\n90.48\n96.581\n\n\nHombre trans\n0\n0\n0.00\n0.000\n\n\nMujer trans\n0\n0\n2.38\n0.855\n\n\nOtro, ¿cuál?\n0\n0\n0.00\n0.000\n\n\nPrefiero no responder\n0\n0\n0.00\n0.000\n\n\nTotal\n100\n100\n100.00\n100.000\n\n\n\n\n\n\n\n\nPorcentajes celda\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nHombre\n0.0\n0.0\n2.564\n2.564\n\n\nMujer\n32.5\n31.6\n32.479\n96.581\n\n\nHombre trans\n0.0\n0.0\n0.000\n0.000\n\n\nMujer trans\n0.0\n0.0\n0.855\n0.855\n\n\nOtro, ¿cuál?\n0.0\n0.0\n0.000\n0.000\n\n\nPrefiero no responder\n0.0\n0.0\n0.000\n0.000\n\n\nTotal\n32.5\n31.6\n35.897\n100.000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStandardized residuals (&gt;|2| suggests notable cells)\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\n\n\n\n\nHombre\n-1.22\n-1.19\n2.34\n\n\nMujer\n1.41\n1.38\n-2.72\n\n\nHombre trans\nNaN\nNaN\nNaN\n\n\nMujer trans\n-0.70\n-0.68\n1.34\n\n\nOtro, ¿cuál?\nNaN\nNaN\nNaN\n\n\nPrefiero no responder\nNaN\nNaN\nNaN\n\n\n\n\n\n\nAssociation tests and effect size\n\n\n\n\n\n\n\n\n\nTest\nStatistic\nDF\np.value\nNote\n\n\n\n\nChi-square (Pearson)\nX^2 = NaN\n10\nNA\nMC p-value (small expected counts)\n\n\nFisher’s exact (r×c, MC)\n\n\n0.107\nMonte Carlo simulation\n\n\nEffect size (Cramér’s V)\nV = NaN\n\n\n0=no assoc, ~0.1 small, ~0.3 medium, ~0.5 large",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Sivirú</span>"
+    ]
+  },
+  {
+    "objectID": "siviru.html#autoreconocimiento-étnico",
+    "href": "siviru.html#autoreconocimiento-étnico",
+    "title": "1  Sivirú",
+    "section": "1.5 Autoreconocimiento étnico",
+    "text": "1.5 Autoreconocimiento étnico\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1.4: Tabulación Cruzada\n\n\n\n\n\n\nTabla de contingencia\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nIndígena\n0\n0\n0\n0\n\n\nGitano/a (Rom)\n0\n0\n0\n0\n\n\nRaizal del archipiélago de San Andrés, Providencia y Santa Catalina\n0\n0\n0\n0\n\n\nPalenquero/a de San Basilio\n0\n0\n0\n0\n\n\nNegro/a, mulato/a, afrodescendiente, afrocolombiano/a\n38\n36\n42\n116\n\n\nNingún grupo étnico\n0\n1\n0\n1\n\n\nTotal\n38\n37\n42\n117\n\n\n\n\n\n\n\n\nPorcentajes fila\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nIndígena\nNaN\nNaN\nNaN\nNaN\n\n\nGitano/a (Rom)\nNaN\nNaN\nNaN\nNaN\n\n\nRaizal del archipiélago de San Andrés, Providencia y Santa Catalina\nNaN\nNaN\nNaN\nNaN\n\n\nPalenquero/a de San Basilio\nNaN\nNaN\nNaN\nNaN\n\n\nNegro/a, mulato/a, afrodescendiente, afrocolombiano/a\n32.8\n31.0\n36.2\n100\n\n\nNingún grupo étnico\n0.0\n100.0\n0.0\n100\n\n\nTotal\n32.5\n31.6\n35.9\n100\n\n\n\n\n\n\n\n\n\n\nPorcentajes columna\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nIndígena\n0\n0.0\n0\n0.000\n\n\nGitano/a (Rom)\n0\n0.0\n0\n0.000\n\n\nRaizal del archipiélago de San Andrés, Providencia y Santa Catalina\n0\n0.0\n0\n0.000\n\n\nPalenquero/a de San Basilio\n0\n0.0\n0\n0.000\n\n\nNegro/a, mulato/a, afrodescendiente, afrocolombiano/a\n100\n97.3\n100\n99.145\n\n\nNingún grupo étnico\n0\n2.7\n0\n0.855\n\n\nTotal\n100\n100.0\n100\n100.000\n\n\n\n\n\n\n\n\nPorcentajes celda\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nIndígena\n0.0\n0.000\n0.0\n0.000\n\n\nGitano/a (Rom)\n0.0\n0.000\n0.0\n0.000\n\n\nRaizal del archipiélago de San Andrés, Providencia y Santa Catalina\n0.0\n0.000\n0.0\n0.000\n\n\nPalenquero/a de San Basilio\n0.0\n0.000\n0.0\n0.000\n\n\nNegro/a, mulato/a, afrodescendiente, afrocolombiano/a\n32.5\n30.769\n35.9\n99.145\n\n\nNingún grupo étnico\n0.0\n0.855\n0.0\n0.855\n\n\nTotal\n32.5\n31.624\n35.9\n100.000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStandardized residuals (&gt;|2| suggests notable cells)\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\n\n\n\n\nIndígena\nNaN\nNaN\nNaN\n\n\nGitano/a (Rom)\nNaN\nNaN\nNaN\n\n\nRaizal del archipiélago de San Andrés, Providencia y Santa Catalina\nNaN\nNaN\nNaN\n\n\nPalenquero/a de San Basilio\nNaN\nNaN\nNaN\n\n\nNegro/a, mulato/a, afrodescendiente, afrocolombiano/a\n0.7\n-1.48\n0.75\n\n\nNingún grupo étnico\n-0.7\n1.48\n-0.75\n\n\n\n\n\n\nAssociation tests and effect size\n\n\n\n\n\n\n\n\n\nTest\nStatistic\nDF\np.value\nNote\n\n\n\n\nChi-square (Pearson)\nX^2 = NaN\n10\nNA\nMC p-value (small expected counts)\n\n\nFisher’s exact (r×c, MC)\n\n\n0.316\nMonte Carlo simulation\n\n\nEffect size (Cramér’s V)\nV = NaN\n\n\n0=no assoc, ~0.1 small, ~0.3 medium, ~0.5 large",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Sivirú</span>"
+    ]
+  },
+  {
+    "objectID": "siviru.html#sabe-leer-y-escribir",
+    "href": "siviru.html#sabe-leer-y-escribir",
+    "title": "1  Sivirú",
+    "section": "1.6 Sabe leer y escribir",
+    "text": "1.6 Sabe leer y escribir\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1.5: Tabulación Cruzada\n\n\n\n\n\n\nTabla de contingencia\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nSí\n35\n30\n37\n102\n\n\nNo\n3\n7\n5\n15\n\n\nTotal\n38\n37\n42\n117\n\n\n\n\n\n\n\n\nPorcentajes fila\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nSí\n34.3\n29.4\n36.3\n100\n\n\nNo\n20.0\n46.7\n33.3\n100\n\n\nTotal\n32.5\n31.6\n35.9\n100\n\n\n\n\n\n\n\n\n\n\nPorcentajes columna\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nSí\n92.1\n81.1\n88.1\n87.2\n\n\nNo\n7.9\n18.9\n11.9\n12.8\n\n\nTotal\n100.0\n100.0\n100.0\n100.0\n\n\n\n\n\n\n\n\nPorcentajes celda\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nSí\n29.91\n25.64\n31.62\n87.2\n\n\nNo\n2.56\n5.98\n4.27\n12.8\n\n\nTotal\n32.48\n31.62\n35.90\n100.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStandardized residuals (&gt;|2| suggests notable cells)\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\n\n\n\n\nSí\n1.11\n-1.34\n0.22\n\n\nNo\n-1.11\n1.34\n-0.22\n\n\n\n\n\n\nAssociation tests and effect size\n\n\n\n\n\n\n\n\n\nTest\nStatistic\nDF\np.value\nNote\n\n\n\n\nChi-square (Pearson)\nX^2 = 2.088\nNA\n0.371\nMC p-value (small expected counts)\n\n\nFisher’s exact (r×c, MC)\n\n\n0.392\nMonte Carlo simulation\n\n\nEffect size (Cramér’s V)\nV = 0.134\n\n\n0=no assoc, ~0.1 small, ~0.3 medium, ~0.5 large",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Sivirú</span>"
+    ]
+  },
+  {
+    "objectID": "siviru.html#nivel-educativo",
+    "href": "siviru.html#nivel-educativo",
+    "title": "1  Sivirú",
+    "section": "1.7 Nivel educativo",
+    "text": "1.7 Nivel educativo\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1.6: Tabulación Cruzada\n\n\n\n\n\n\nTabla de contingencia\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nNinguno\n1\n6\n4\n11\n\n\nPreescolar\n1\n1\n0\n2\n\n\nBásica primaria (1.°-5.°)\n13\n10\n13\n36\n\n\nBásica secundaria (6.°-9.°)\n7\n5\n1\n13\n\n\nMedia (10.°-13.°)\n12\n8\n13\n33\n\n\nTécnico sin título\n0\n2\n1\n3\n\n\nTécnico con título\n3\n2\n4\n9\n\n\nTecnológico sin título\n0\n0\n0\n0\n\n\nTecnológico con título\n1\n2\n0\n3\n\n\nUniversitario sin título\n0\n0\n1\n1\n\n\nUniversitario con título\n0\n1\n5\n6\n\n\nPosgrado sin título\n0\n0\n0\n0\n\n\nPosgrado con título\n0\n0\n0\n0\n\n\nTotal\n38\n37\n42\n117\n\n\n\n\n\n\n\n\nPorcentajes fila\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nNinguno\n9.09\n54.5\n36.36\n100\n\n\nPreescolar\n50.00\n50.0\n0.00\n100\n\n\nBásica primaria (1.°-5.°)\n36.11\n27.8\n36.11\n100\n\n\nBásica secundaria (6.°-9.°)\n53.85\n38.5\n7.69\n100\n\n\nMedia (10.°-13.°)\n36.36\n24.2\n39.39\n100\n\n\nTécnico sin título\n0.00\n66.7\n33.33\n100\n\n\nTécnico con título\n33.33\n22.2\n44.44\n100\n\n\nTecnológico sin título\nNaN\nNaN\nNaN\nNaN\n\n\nTecnológico con título\n33.33\n66.7\n0.00\n100\n\n\nUniversitario sin título\n0.00\n0.0\n100.00\n100\n\n\nUniversitario con título\n0.00\n16.7\n83.33\n100\n\n\nPosgrado sin título\nNaN\nNaN\nNaN\nNaN\n\n\nPosgrado con título\nNaN\nNaN\nNaN\nNaN\n\n\nTotal\n32.48\n31.6\n35.90\n100\n\n\n\n\n\n\n\n\n\n\nPorcentajes columna\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nNinguno\n2.63\n16.2\n9.52\n9.402\n\n\nPreescolar\n2.63\n2.7\n0.00\n1.709\n\n\nBásica primaria (1.°-5.°)\n34.21\n27.0\n30.95\n30.769\n\n\nBásica secundaria (6.°-9.°)\n18.42\n13.5\n2.38\n11.111\n\n\nMedia (10.°-13.°)\n31.58\n21.6\n30.95\n28.205\n\n\nTécnico sin título\n0.00\n5.4\n2.38\n2.564\n\n\nTécnico con título\n7.89\n5.4\n9.52\n7.692\n\n\nTecnológico sin título\n0.00\n0.0\n0.00\n0.000\n\n\nTecnológico con título\n2.63\n5.4\n0.00\n2.564\n\n\nUniversitario sin título\n0.00\n0.0\n2.38\n0.855\n\n\nUniversitario con título\n0.00\n2.7\n11.90\n5.128\n\n\nPosgrado sin título\n0.00\n0.0\n0.00\n0.000\n\n\nPosgrado con título\n0.00\n0.0\n0.00\n0.000\n\n\nTotal\n100.00\n100.0\n100.00\n100.000\n\n\n\n\n\n\n\n\nPorcentajes celda\n\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nNinguno\n0.855\n5.128\n3.419\n9.402\n\n\nPreescolar\n0.855\n0.855\n0.000\n1.709\n\n\nBásica primaria (1.°-5.°)\n11.111\n8.547\n11.111\n30.769\n\n\nBásica secundaria (6.°-9.°)\n5.983\n4.274\n0.855\n11.111\n\n\nMedia (10.°-13.°)\n10.256\n6.838\n11.111\n28.205\n\n\nTécnico sin título\n0.000\n1.709\n0.855\n2.564\n\n\nTécnico con título\n2.564\n1.709\n3.419\n7.692\n\n\nTecnológico sin título\n0.000\n0.000\n0.000\n0.000\n\n\nTecnológico con título\n0.855\n1.709\n0.000\n2.564\n\n\nUniversitario sin título\n0.000\n0.000\n0.855\n0.855\n\n\nUniversitario con título\n0.000\n0.855\n4.274\n5.128\n\n\nPosgrado sin título\n0.000\n0.000\n0.000\n0.000\n\n\nPosgrado con título\n0.000\n0.000\n0.000\n0.000\n\n\nTotal\n32.479\n31.624\n35.897\n100.000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStandardized residuals (&gt;|2| suggests notable cells)\n\n\n\n\n\n\n\n\n\nBeneficiaria/o\nControl Cercano\nControl Lejano\n\n\n\n\nNinguno\n-1.74\n1.72\n0.03\n\n\nPreescolar\n0.53\n0.56\n-1.07\n\n\nBásica primaria (1.°-5.°)\n0.56\n-0.60\n0.03\n\n\nBásica secundaria (6.°-9.°)\n1.74\n0.56\n-2.25\n\n\nMedia (10.°-13.°)\n0.56\n-1.08\n0.49\n\n\nTécnico sin título\n-1.22\n1.32\n-0.09\n\n\nTécnico con título\n0.06\n-0.63\n0.56\n\n\nTecnológico sin título\nNaN\nNaN\nNaN\n\n\nTecnológico con título\n0.03\n1.32\n-1.31\n\n\nUniversitario sin título\n-0.70\n-0.68\n1.34\n\n\nUniversitario con título\n-1.74\n-0.81\n2.49\n\n\nPosgrado sin título\nNaN\nNaN\nNaN\n\n\nPosgrado con título\nNaN\nNaN\nNaN\n\n\n\n\n\n\nAssociation tests and effect size\n\n\n\n\n\n\n\n\n\nTest\nStatistic\nDF\np.value\nNote\n\n\n\n\nChi-square (Pearson)\nX^2 = NaN\n24\nNA\nMC p-value (small expected counts)\n\n\nFisher’s exact (r×c, MC)\n\n\n0.102\nMonte Carlo simulation\n\n\nEffect size (Cramér’s V)\nV = NaN\n\n\n0=no assoc, ~0.1 small, ~0.3 medium, ~0.5 large",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Sivirú</span>"
+    ]
+  },
+  {
+    "objectID": "siviru.html#ingreso-persona",
+    "href": "siviru.html#ingreso-persona",
+    "title": "1  Sivirú",
+    "section": "1.8 Ingreso persona",
+    "text": "1.8 Ingreso persona\n\n\n\nMedia y desviación\n\n\nMedia\nDesviación Estándar\nCoeficiente de Variación\n\n\n\n\n550,235\n873,828\n1.59\n\n\n\n\n\n\n\n\nCuantiles\n\n\n0%\n5%\n25%\n50%\n75%\n95%\n100%\n\n\n\n\n0\n0\n100,000\n300,000\n600,000\n2,000,000\n6,700,000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMedia y desviación\n\n\n\n\n\n\n\n\nExposición al programa\nMedia\nDesviación Estándar\nCoeficiente de Variación\n\n\n\n\nBeneficiaria/o\n306,579\n322,560\n1.05\n\n\nControl Cercano\n620,473\n814,371\n1.31\n\n\nControl Lejano\n708,810\n1,182,755\n1.67\n\n\n\n\n\n\n\n\nCuantiles\n\n\n\n\n\n\n\n\n\n\n\n\nExposición al programa\n0%\n5%\n25%\n50%\n75%\n95%\n100%\n\n\n\n\nBeneficiaria/o\n0\n42,500\n100,000\n200,000\n300,000\n1,030,000\n1,500,000\n\n\nControl Cercano\n0\n89,000\n180,000\n300,000\n620,000\n2,260,000\n3,700,000\n\n\nControl Lejano\n0\n0\n152,500\n425,000\n600,000\n1,978,500\n6,700,000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPruebas de diferencia de distribución y medidas de tendencia central\n\n\n\n\n\n\n\nTest\nStatistic\nP-Value\n\n\n\n\nAnderson-Darling (k-sample, v1)\n\\(AD = 5.9412 \\, (T_{AD}=3.7358)\\)\n0.007\n\n\nAnderson-Darling (k-sample, v2)\n\\(AD = 5.65 \\, (T_{AD}=3.4579)\\)\n0.010\n\n\nKruskal–Wallis\n\\(\\chi^2(2)=4.66477721660417\\)\n0.097\n\n\nWelch ANOVA\n\\(F(2, 61.2174426477135)=4.16138958377838\\)\n0.020",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Sivirú</span>"
+    ]
+  },
+  {
+    "objectID": "siviru_caracteriza.html",
+    "href": "siviru_caracteriza.html",
+    "title": "2  Caracterización de beneficiarios - SIVIRÚ",
+    "section": "",
+    "text": "2.1 Edad y sexo asignado al nacer\nUbicación de entrevista de los beneficiarios\nUbicación de entrevista de los beneficiarios\nUbicación de entrevista de los beneficiarios\nEdad\nSexo",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Caracterización de beneficiarios -  SIVIRÚ</span>"
+    ]
+  },
+  {
+    "objectID": "siviru_caracteriza.html#orientación-sexual-e-identidad-de-género",
+    "href": "siviru_caracteriza.html#orientación-sexual-e-identidad-de-género",
+    "title": "2  Caracterización de beneficiarios - SIVIRÚ",
+    "section": "2.2 Orientación sexual e identidad de género",
+    "text": "2.2 Orientación sexual e identidad de género\n\n\n\n\nOrientación sexual\n\n\n\n\n\n\n\n\n\nIdentidad de género",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Caracterización de beneficiarios -  SIVIRÚ</span>"
+    ]
+  },
+  {
+    "objectID": "siviru_caracteriza.html#autoreconocimiento-étnico",
+    "href": "siviru_caracteriza.html#autoreconocimiento-étnico",
+    "title": "2  Caracterización de beneficiarios - SIVIRÚ",
+    "section": "2.3 Autoreconocimiento étnico",
+    "text": "2.3 Autoreconocimiento étnico\n\n\n\n\nAutoreconocimiento étnico",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Caracterización de beneficiarios -  SIVIRÚ</span>"
+    ]
+  },
+  {
+    "objectID": "siviru_caracteriza.html#educación",
+    "href": "siviru_caracteriza.html#educación",
+    "title": "2  Caracterización de beneficiarios - SIVIRÚ",
+    "section": "2.4 Educación",
+    "text": "2.4 Educación\n\n\n\n\nSabe leer y escribir\n\n\n\n\n\n\n\n\n\nNivel educativo más alto alcanzado",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Caracterización de beneficiarios -  SIVIRÚ</span>"
+    ]
+  },
+  {
+    "objectID": "siviru_caracteriza.html#situaciones-de-discapacidad",
+    "href": "siviru_caracteriza.html#situaciones-de-discapacidad",
+    "title": "2  Caracterización de beneficiarios - SIVIRÚ",
+    "section": "2.5 Situaciones de discapacidad",
+    "text": "2.5 Situaciones de discapacidad",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Caracterización de beneficiarios -  SIVIRÚ</span>"
+    ]
+  },
+  {
+    "objectID": "siviru_caracteriza.html#afectaciones-por-el-conflicto-armado",
+    "href": "siviru_caracteriza.html#afectaciones-por-el-conflicto-armado",
+    "title": "2  Caracterización de beneficiarios - SIVIRÚ",
+    "section": "2.6 Afectaciones por el conflicto armado",
+    "text": "2.6 Afectaciones por el conflicto armado\n\n\n\n\nAfectación por el conflicto armado (alguna)\n\n\n\n\n\n\n\n\n\nTipo de afectación por el conflicto armado",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Caracterización de beneficiarios -  SIVIRÚ</span>"
+    ]
+  },
+  {
+    "objectID": "siviru_caracteriza.html#seguridad-social",
+    "href": "siviru_caracteriza.html#seguridad-social",
+    "title": "2  Caracterización de beneficiarios - SIVIRÚ",
+    "section": "2.7 Seguridad social",
+    "text": "2.7 Seguridad social\n\n\n\n\nSalud\n\n\n\n\n\n\n\n\n\nPensión\n\n\n\n\n\n\n\n\n\nRiesgos",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Caracterización de beneficiarios -  SIVIRÚ</span>"
+    ]
+  },
+  {
+    "objectID": "siviru_caracteriza.html#ocupación",
+    "href": "siviru_caracteriza.html#ocupación",
+    "title": "2  Caracterización de beneficiarios - SIVIRÚ",
+    "section": "2.8 Ocupación",
+    "text": "2.8 Ocupación\n\n\n\n\nParticipación en el mercado laboral\n\n\n\n\n\n\n\n\n\nOcupación\n\n\n\n\n\n\n\n\n\nParticipación en el mercado laboral",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Caracterización de beneficiarios -  SIVIRÚ</span>"
+    ]
+  },
+  {
+    "objectID": "siviru_caracteriza.html#apoyos-gubernamentales-y-no-gubernamentales",
+    "href": "siviru_caracteriza.html#apoyos-gubernamentales-y-no-gubernamentales",
+    "title": "2  Caracterización de beneficiarios - SIVIRÚ",
+    "section": "2.9 Apoyos gubernamentales y no gubernamentales",
+    "text": "2.9 Apoyos gubernamentales y no gubernamentales\n\n\n\n\nRecibió durante los últimos 12 meses alguna ayuda o subsidio de entidades gubernamentales\n\n\n\n\n\n\n\n\n\nProgramas de los cuales recibió ayudas o subsidios\n\n\n\n\n\n\n\n\n\nRecibió durante los últimos 12 meses alguna ayuda o subsidio de entidades no gubernamentales",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Caracterización de beneficiarios -  SIVIRÚ</span>"
+    ]
+  },
+  {
+    "objectID": "siviru_caracteriza.html#participación-comunitaria",
+    "href": "siviru_caracteriza.html#participación-comunitaria",
+    "title": "2  Caracterización de beneficiarios - SIVIRÚ",
+    "section": "2.10 Participación comunitaria",
+    "text": "2.10 Participación comunitaria\n\n\n\n\nPertenece a alguna organización\n\n\n\n\n\n\n\n\n\nOrganizaciones a las que pertenece\n\n\n\n\n\n\n\n\n\nEn el último año, tuvo contacto con alguna organización\n\n\n\n\n\n\n\n\n\nOrganizaciones con las que tuvo contacto el último año\n\n\n\n\n\n\n\n\n\nLidera organizaciones\n\n\n\n\n\n\n\n\n\nOrganizaciones que lidera",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Caracterización de beneficiarios -  SIVIRÚ</span>"
+    ]
+  },
+  {
+    "objectID": "usaraga_caracteriza.html",
+    "href": "usaraga_caracteriza.html",
+    "title": "3  Caracterización de beneficiarios - Usaragá",
+    "section": "",
+    "text": "3.1 Edad y sexo asignado al nacer\nEdad\nSexo",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Caracterización de beneficiarios -  Usaragá</span>"
+    ]
+  },
+  {
+    "objectID": "usaraga_caracteriza.html#orientación-sexual-e-identidad-de-género",
+    "href": "usaraga_caracteriza.html#orientación-sexual-e-identidad-de-género",
+    "title": "3  Caracterización de beneficiarios - Usaragá",
+    "section": "3.2 Orientación sexual e identidad de género",
+    "text": "3.2 Orientación sexual e identidad de género\n\n\n\n\nOrientación sexual\n\n\n\n\n\n\n\n\n\nIdentidad de género",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Caracterización de beneficiarios -  Usaragá</span>"
+    ]
+  },
+  {
+    "objectID": "usaraga_caracteriza.html#autoreconocimiento-étnico",
+    "href": "usaraga_caracteriza.html#autoreconocimiento-étnico",
+    "title": "3  Caracterización de beneficiarios - Usaragá",
+    "section": "3.3 Autoreconocimiento étnico",
+    "text": "3.3 Autoreconocimiento étnico\n\n\n\n\nAutoreconocimiento étnico",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Caracterización de beneficiarios -  Usaragá</span>"
+    ]
+  },
+  {
+    "objectID": "usaraga_caracteriza.html#educación",
+    "href": "usaraga_caracteriza.html#educación",
+    "title": "3  Caracterización de beneficiarios - Usaragá",
+    "section": "3.4 Educación",
+    "text": "3.4 Educación\n\n\n\n\nSabe leer y escribir\n\n\n\n\n\n\n\n\n\nNivel educativo más alto alcanzado",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Caracterización de beneficiarios -  Usaragá</span>"
+    ]
+  },
+  {
+    "objectID": "usaraga_caracteriza.html#situaciones-de-discapacidad",
+    "href": "usaraga_caracteriza.html#situaciones-de-discapacidad",
+    "title": "3  Caracterización de beneficiarios - Usaragá",
+    "section": "3.5 Situaciones de discapacidad",
+    "text": "3.5 Situaciones de discapacidad",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Caracterización de beneficiarios -  Usaragá</span>"
+    ]
+  },
+  {
+    "objectID": "usaraga_caracteriza.html#afectaciones-por-el-conflicto-armado",
+    "href": "usaraga_caracteriza.html#afectaciones-por-el-conflicto-armado",
+    "title": "3  Caracterización de beneficiarios - Usaragá",
+    "section": "3.6 Afectaciones por el conflicto armado",
+    "text": "3.6 Afectaciones por el conflicto armado\n\n\n\n\nAfectación por el conflicto armado (alguna)\n\n\n\n\n\n\n\n\n\nTipo de afectación por el conflicto armado",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Caracterización de beneficiarios -  Usaragá</span>"
+    ]
+  },
+  {
+    "objectID": "usaraga_caracteriza.html#seguridad-social",
+    "href": "usaraga_caracteriza.html#seguridad-social",
+    "title": "3  Caracterización de beneficiarios - Usaragá",
+    "section": "3.7 Seguridad social",
+    "text": "3.7 Seguridad social\n\n\n\n\nSalud\n\n\n\n\n\n\n\n\n\nPensión\n\n\n\n\n\n\n\n\n\nRiesgos",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Caracterización de beneficiarios -  Usaragá</span>"
+    ]
+  },
+  {
+    "objectID": "usaraga_caracteriza.html#ocupación",
+    "href": "usaraga_caracteriza.html#ocupación",
+    "title": "3  Caracterización de beneficiarios - Usaragá",
+    "section": "3.8 Ocupación",
+    "text": "3.8 Ocupación\n\n\n\n\nParticipación en el mercado laboral\n\n\n\n\n\n\n\n\n\nOcupación\n\n\n\n\n\n\n\n\n\nParticipación en el mercado laboral",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Caracterización de beneficiarios -  Usaragá</span>"
+    ]
+  },
+  {
+    "objectID": "usaraga_caracteriza.html#apoyos-gubernamentales-y-no-gubernamentales",
+    "href": "usaraga_caracteriza.html#apoyos-gubernamentales-y-no-gubernamentales",
+    "title": "3  Caracterización de beneficiarios - Usaragá",
+    "section": "3.9 Apoyos gubernamentales y no gubernamentales",
+    "text": "3.9 Apoyos gubernamentales y no gubernamentales\n\n\n\n\nRecibió durante los últimos 12 meses alguna ayuda o subsidio de entidades gubernamentales\n\n\n\n\n\n\n\n\n\nProgramas de los cuales recibió ayudas o subsidios\n\n\n\n\n\n\n\n\n\nRecibió durante los últimos 12 meses alguna ayuda o subsidio de entidades no gubernamentales",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Caracterización de beneficiarios -  Usaragá</span>"
+    ]
+  },
+  {
+    "objectID": "usaraga_caracteriza.html#participación-comunitaria",
+    "href": "usaraga_caracteriza.html#participación-comunitaria",
+    "title": "3  Caracterización de beneficiarios - Usaragá",
+    "section": "3.10 Participación comunitaria",
+    "text": "3.10 Participación comunitaria\n\n\n\n\nPertenece a alguna organización\n\n\n\n\n\n\n\n\n\nOrganizaciones a las que pertenece\n\n\n\n\n\n\n\n\n\nEn el último año, tuvo contacto con alguna organización\n\n\n\n\n\n\n\n\n\nOrganizaciones con las que tuvo contacto el último año\n\n\n\n\n\n\n\n\n\nLidera organizaciones\n\n\n\n\n\n\n\n\n\nOrganizaciones que lidera",
+    "crumbs": [
+      "Caracterización de beneficiarias y beneficiarios",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Caracterización de beneficiarios -  Usaragá</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "4  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/entries_count.html",
+    "href": "Annex/entries_count.html",
+    "title": "Appendix A — Resumen registros subidos",
+    "section": "",
+    "text": "A.1 Sivirú\ncreated_by\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nasprillanyelys@gmail.com\n7\n13\n13\n33\n\n\nfernando.salazar.j@gmail.com\n8\n5\n9\n22\n\n\ninfo@claudiomoreno.com\n9\n10\n7\n26\n\n\nrosaangelicaledesma@gmail.com\n14\n9\n13\n36\n\n\nTotal\n38\n37\n42\n117",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resumen registros subidos</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/entries_count.html#usaragá",
+    "href": "Annex/entries_count.html#usaragá",
+    "title": "Appendix A — Resumen registros subidos",
+    "section": "A.2 Usaragá",
+    "text": "A.2 Usaragá\n\n\n\n\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nasprillanyelys@gmail.com\n4\n1\n5\n10\n\n\nfernando.salazar.j@gmail.com\n0\n4\n3\n7\n\n\ninfo@claudiomoreno.com\n0\n2\n0\n2\n\n\nrosaangelicaledesma@gmail.com\n5\n3\n0\n8\n\n\nTotal\n9\n10\n8\n27",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resumen registros subidos</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/entries_count.html#sirenas",
+    "href": "Annex/entries_count.html#sirenas",
+    "title": "Appendix A — Resumen registros subidos",
+    "section": "A.3 Sirenas",
+    "text": "A.3 Sirenas\n\n\n\n\n\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria/o\nControl Cercano\nNA\nControl Lejano\nTotal\n\n\n\n\nfernando.salazar.j@gmail.com\n11\n7\n2\n0\n20\n\n\nmiryamsolis1204@gmail.com\n0\n3\n10\n12\n25\n\n\npaguilarfo@gmail.com\n5\n4\n5\n0\n14\n\n\nvallecillavanessa062@gmail.com\n5\n3\n5\n0\n13\n\n\nTotal\n21\n17\n22\n12\n72",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resumen registros subidos</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/entries_count.html#puerto-saíja",
+    "href": "Annex/entries_count.html#puerto-saíja",
+    "title": "Appendix A — Resumen registros subidos",
+    "section": "A.4 Puerto Saíja",
+    "text": "A.4 Puerto Saíja\n\n\n\n\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria/o\nControl Cercano\nControl Lejano\nTotal\n\n\n\n\nfernando.salazar.j@gmail.com\n16\n1\n22\n39\n\n\npaguilarfo@gmail.com\n11\n1\n12\n24\n\n\nvallecillavanessa062@gmail.com\n17\n30\n4\n51\n\n\nTotal\n44\n32\n38\n114",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resumen registros subidos</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/entries_count.html#raíces",
+    "href": "Annex/entries_count.html#raíces",
+    "title": "Appendix A — Resumen registros subidos",
+    "section": "A.5 Raíces",
+    "text": "A.5 Raíces\n\n\n\n\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria\nControl cercano\nControl lejano\nTotal\n\n\n\n\nfernando.salazar.j@gmail.com\n8\n14\n9\n31\n\n\ninfo@claudiomoreno.com\n7\n9\n10\n26\n\n\njuhu228@gmail.com\n12\n8\n12\n32\n\n\ntrabajo.de.campo.uno.1@gmail.com\n8\n7\n9\n24\n\n\nTotal\n35\n38\n40\n113",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resumen registros subidos</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/entries_count.html#acapa",
+    "href": "Annex/entries_count.html#acapa",
+    "title": "Appendix A — Resumen registros subidos",
+    "section": "A.6 ACAPA",
+    "text": "A.6 ACAPA\n\n\n\n\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria/o\nControl cercano\nControl lejano\nTotal\n\n\n\n\nBanguerasuany9@gmail.com\n7\n10\n11\n28\n\n\nbetsykaterineportocarrero@gmail.com\n4\n10\n10\n24\n\n\njuhu228@gmail.com\n5\n11\n10\n26\n\n\ntrabajo.de.campo.uno.1@gmail.com\n2\n10\n10\n22\n\n\nTotal\n18\n41\n41\n100",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resumen registros subidos</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/entries_count.html#mariposas",
+    "href": "Annex/entries_count.html#mariposas",
+    "title": "Appendix A — Resumen registros subidos",
+    "section": "A.7 Mariposas",
+    "text": "A.7 Mariposas\n\n\n\n\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria/o\nControl cercano\nControl lejano\nTotal\n\n\n\n\nandreaflorezflorezperez@gmail.com\n5\n6\n2\n13\n\n\nbangueraleydi14@gmail.com\n2\n6\n13\n21\n\n\ndayhan1831riasco@gmail.com\n6\n5\n0\n11\n\n\ndyam0214@gmail.com\n4\n5\n11\n20\n\n\ninfo@claudiomoreno.com\n2\n1\n0\n3\n\n\nnicolecundumi@gmail.com\n3\n5\n12\n20\n\n\npaguilarfo@gmail.com\n4\n1\n2\n7\n\n\nruby_reng95@hotmail.com\n3\n5\n0\n8\n\n\nselenebedoyao.621@gmail.com\n3\n5\n1\n9\n\n\nwendynayelyjimenezangulo@gmail.com\n4\n6\n0\n10\n\n\nTotal\n36\n45\n41\n122",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resumen registros subidos</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/entries_count.html#asogesampa",
+    "href": "Annex/entries_count.html#asogesampa",
+    "title": "Appendix A — Resumen registros subidos",
+    "section": "A.8 Asogesampa",
+    "text": "A.8 Asogesampa\n\n\n\n\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria\nControl cercano\nControl lejano\nTotal\n\n\n\n\nShirleycampaz2@gmail.com\n3\n5\n4\n12\n\n\nandreaflorezflorezperez@gmail.com\n4\n7\n5\n16\n\n\nbangueraleydi14@gmail.com\n3\n2\n4\n9\n\n\ndayhan1831riasco@gmail.com\n1\n6\n4\n11\n\n\ndyam0214@gmail.com\n2\n4\n4\n10\n\n\ninfo@claudiomoreno.com\n2\n1\n1\n4\n\n\njesucito64@outlook.com\n2\n7\n1\n10\n\n\nnicolecundumi@gmail.com\n2\n5\n3\n10\n\n\npaguilarfo@gmail.com\n0\n1\n4\n5\n\n\nruby_reng95@hotmail.com\n2\n7\n3\n12\n\n\nselenebedoyao.621@gmail.com\n3\n4\n5\n12\n\n\nwendynayelyjimenezangulo@gmail.com\n2\n5\n4\n11\n\n\nTotal\n26\n54\n42\n122",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resumen registros subidos</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/survey_times.html",
+    "href": "Annex/survey_times.html",
+    "title": "Appendix B — Tiempos de entrevista en el levantamiento de información",
+    "section": "",
+    "text": "B.1 Tiempos Sivirú\nMean Time (minutes)\n\n\nMean.Time..minutes.\n\n\n\n\n26.9\nSummary of Times (minutes)\n\n\n0%\n10%\n25%\n50%\n75%\n90%\n100%\n\n\n\n\n7\n12\n17\n25\n36\n47.4\n57\nCross-tabulation of Created By by Beneficia\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria/o\nControl Cercano\nControl Lejano\n\n\n\n\nasprillanyelys@gmail.com\n7\n13\n13\n\n\nfernando.salazar.j@gmail.com\n8\n5\n9\n\n\ninfo@claudiomoreno.com\n9\n10\n7\n\n\nrosaangelicaledesma@gmail.com\n14\n9\n13",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Tiempos de entrevista en el levantamiento de información</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/survey_times.html#tiempos-usaragá",
+    "href": "Annex/survey_times.html#tiempos-usaragá",
+    "title": "Appendix B — Tiempos de entrevista en el levantamiento de información",
+    "section": "B.2 Tiempos Usaragá",
+    "text": "B.2 Tiempos Usaragá\n\n\n\nMean Time (minutes)\n\n\nMean.Time..minutes.\n\n\n\n\n25.9\n\n\n\n\n\n\n\n\nSummary of Times (minutes)\n\n\n0%\n10%\n25%\n50%\n75%\n90%\n100%\n\n\n\n\n12\n15.2\n17\n23\n31\n39.4\n64\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCross-tabulation of Created By by Beneficia\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria/o\nControl Cercano\nControl Lejano\n\n\n\n\nasprillanyelys@gmail.com\n4\n1\n5\n\n\nrosaangelicaledesma@gmail.com\n5\n3\n0\n\n\nfernando.salazar.j@gmail.com\n0\n4\n3\n\n\ninfo@claudiomoreno.com\n0\n2\n0",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Tiempos de entrevista en el levantamiento de información</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/survey_times.html#tiempos-sirenas",
+    "href": "Annex/survey_times.html#tiempos-sirenas",
+    "title": "Appendix B — Tiempos de entrevista en el levantamiento de información",
+    "section": "B.3 Tiempos Sirenas",
+    "text": "B.3 Tiempos Sirenas\n\n\n\nMean Time (minutes)\n\n\nMean.Time..minutes.\n\n\n\n\n27.1\n\n\n\n\n\n\n\n\nSummary of Times (minutes)\n\n\n0%\n10%\n25%\n50%\n75%\n90%\n100%\n\n\n\n\n12\n16.1\n20\n24.5\n31\n37\n85\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCross-tabulation of Created By by Beneficia\n\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria/o\nControl Cercano\nControl Lejano\nNA\n\n\n\n\nfernando.salazar.j@gmail.com\n11\n7\n0\n2\n\n\npaguilarfo@gmail.com\n5\n4\n0\n5\n\n\nvallecillavanessa062@gmail.com\n5\n3\n0\n5\n\n\nmiryamsolis1204@gmail.com\n0\n3\n12\n10",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Tiempos de entrevista en el levantamiento de información</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/survey_times.html#tiempos-saíja",
+    "href": "Annex/survey_times.html#tiempos-saíja",
+    "title": "Appendix B — Tiempos de entrevista en el levantamiento de información",
+    "section": "B.4 Tiempos Saíja",
+    "text": "B.4 Tiempos Saíja\n\n\n\nMean Time (minutes)\n\n\nMean.Time..minutes.\n\n\n\n\n18\n\n\n\n\n\n\n\n\nSummary of Times (minutes)\n\n\n0%\n10%\n25%\n50%\n75%\n90%\n100%\n\n\n\n\n3\n8\n11.2\n17\n22\n28.4\n93\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCross-tabulation of Created By by Beneficia\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria/o\nControl Cercano\nControl Lejano\n\n\n\n\nfernando.salazar.j@gmail.com\n16\n1\n22\n\n\npaguilarfo@gmail.com\n11\n1\n12\n\n\nvallecillavanessa062@gmail.com\n17\n30\n4",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Tiempos de entrevista en el levantamiento de información</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/survey_times.html#tiempos-raíces",
+    "href": "Annex/survey_times.html#tiempos-raíces",
+    "title": "Appendix B — Tiempos de entrevista en el levantamiento de información",
+    "section": "B.5 Tiempos Raíces",
+    "text": "B.5 Tiempos Raíces\n\n\n\nMean Time (minutes)\n\n\nMean.Time..minutes.\n\n\n\n\n40.3\n\n\n\n\n\n\n\n\nSummary of Times (minutes)\n\n\n0%\n10%\n25%\n50%\n75%\n90%\n100%\n\n\n\n\n14\n22.2\n28\n39\n48\n61\n97\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCross-tabulation of Created By by Beneficia\n\n\n\n\n\n\n\n\ncreated_by\nBeneficiaria\nControl cercano\nControl lejano\n\n\n\n\nfernando.salazar.j@gmail.com\n8\n14\n9\n\n\ninfo@claudiomoreno.com\n7\n9\n10\n\n\njuhu228@gmail.com\n12\n8\n12\n\n\ntrabajo.de.campo.uno.1@gmail.com\n8\n7\n9",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Tiempos de entrevista en el levantamiento de información</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/abridge.html",
+    "href": "Annex/abridge.html",
+    "title": "Appendix C — Descriptivas",
+    "section": "",
+    "text": "C.1 Sivirú",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Descriptivas</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/abridge.html#usaragá",
+    "href": "Annex/abridge.html#usaragá",
+    "title": "Appendix C — Descriptivas",
+    "section": "C.2 Usaragá",
+    "text": "C.2 Usaragá",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Descriptivas</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/abridge.html#sirenas",
+    "href": "Annex/abridge.html#sirenas",
+    "title": "Appendix C — Descriptivas",
+    "section": "C.3 Sirenas",
+    "text": "C.3 Sirenas",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Descriptivas</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/abridge.html#saíja",
+    "href": "Annex/abridge.html#saíja",
+    "title": "Appendix C — Descriptivas",
+    "section": "C.4 Saíja",
+    "text": "C.4 Saíja",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Descriptivas</span>"
+    ]
+  },
+  {
+    "objectID": "Annex/abridge.html#raíces",
+    "href": "Annex/abridge.html#raíces",
+    "title": "Appendix C — Descriptivas",
+    "section": "C.5 Raíces",
+    "text": "C.5 Raíces",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Descriptivas</span>"
+    ]
+  }
+]
