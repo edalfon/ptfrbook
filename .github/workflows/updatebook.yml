@@ -19,6 +19,10 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: macos-latest
+    permissions:
+      actions: read # Required to read details about other workflow runs
+      contents: read
+
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -40,7 +44,7 @@ jobs:
           workflow: R-targets.yml
           # If no workflow is set and workflow_search set to true, then the most recent workflow matching
           # all other criteria will be looked up instead of using the current workflow
-          workflow_search: false
+          workflow_search: true
           # Optional, the status or conclusion of a completed workflow to search for
           # Can be one of a workflow conclusion:
           #   "failure", "success", "neutral", "cancelled", "skipped", "timed_out", "action_required"
