@@ -79,7 +79,7 @@ jobs:
           # Optional, a directory where to extract artifact(s), defaults to the current directory
           path: book
           # Optional, defaults to current repo
-          repo: ptfr
+          repo: edalfon/ptfr
           # Optional, check the workflow run to whether it has an artifact
           # then will get the last available artifact from the previous workflow
           # default false, just try to download from the last one
