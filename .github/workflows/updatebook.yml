@@ -19,7 +19,6 @@ jobs:
           workflow: R-targets.yml
           workflow_conclusion: success
           branch: main
-          name: quartobook
           path: book
           search_artifacts: true
           check_artifacts: true
